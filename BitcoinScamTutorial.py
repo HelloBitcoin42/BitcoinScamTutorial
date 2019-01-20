@@ -12,6 +12,6 @@ addr = pubtoaddr(pub)
 
 print("This is a Bitcoin Tutorial.  It will teach you something about Bitcoin! \nDeposit Bitcoin here to continue: \n" + addr)
 
-if history(addr) != []:
+while history(addr) != []:
     print(history())
     print("Congradulations!!\nYou have just been scammed!\nWelcome to Bitcoin\nSorry for your loss")
